@@ -7,6 +7,7 @@ app.get('/', (req, res) => {
 })
 
 app.get('/test', (req, res) => {
+    console.log('checking..');
   res.send('New feature !!!')
 })
 
