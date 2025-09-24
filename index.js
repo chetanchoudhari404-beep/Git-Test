@@ -7,7 +7,8 @@ app.get('/', (req, res) => {
 })
 
 app.get('/test', (req, res) => {
-  res.send('Old feature !!!')
+    console.log('checking..');
+  res.send('New feature !!!')
 })
 
 app.listen(port, () => {
